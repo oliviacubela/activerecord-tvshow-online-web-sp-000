@@ -1,4 +1,4 @@
-class Show < ActiveRecord::Migration
+class CreateShows < ActiveRecord::Migration
 
   def change
     create_table :shows do |t|
@@ -7,5 +7,5 @@ class Show < ActiveRecord::Migration
       t.string :day
       t.integer :rating
     end
-  end  
+  end
 end
