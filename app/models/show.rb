@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   def most_popular_show
   end
 
-  def method_name
+  def lowest_rating
   end
 
   end
